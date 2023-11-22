@@ -1,0 +1,37 @@
+.repostContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.repos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 15px;
+    gap: 15px;
+    background-color: var(--tertiary-bg-color);
+    width: 789px;
+    height: 889px;
+    padding: 30px;
+
+    border-radius: 15px;
+    box-shadow: 0px 4px 25.3px 0px #000;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--primary-font-color);
+}
+
+.projects{
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+}

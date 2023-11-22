@@ -1,0 +1,43 @@
+:root {
+    --primary-bg-color: #131313;
+    --secondary-bg-color: #3D3D3D;
+    --tertiary-bg-color:#1F1F1F;
+    --primary-font-color: #FFF;
+    --secondary-font-color: #F8FAFC;
+    --tertiary-font-color: #11C6FF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--primary-font-color);
+    text-align: center;
+}
+
+a:hover{
+    color: var(--tertiary-font-color);
+    cursor: pointer;
+}
+
+body{
+    background-color: var(--primary-bg-color);
+    color: var();
+    -webkit-font-smoothing: antialised;
+}
+
+span{
+    color: var(--tertiary-font-color);
+    font-weight: 700;
+}
+
+body, input, button{
+    font-weight: 400;
+    font-size: 1rem;
+}

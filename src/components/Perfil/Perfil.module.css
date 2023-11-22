@@ -1,0 +1,57 @@
+.perfilContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.avatar{
+    width: 300px; 
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid var(--tertiary-font-color);
+}
+
+.title{
+    font-size: 64px;
+    color: var(--primary-font-color);
+}
+
+.text{
+    color: var(--primary-font-color);
+    font-size: 24px;
+}
+
+.techContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.subtitle{
+    color: var(--primary-font-color);
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.tech{
+    display: flex;
+    width: auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: var(--secondary-bg-color);
+}
